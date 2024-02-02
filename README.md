@@ -1,8 +1,3 @@
----
-title: Analyzing Physical Layer Information in 802.11 Packets
-author: Subham Saha, Ritvik Sood
----
-
 # Setting up
 
 We use the `tshark` command line tool provided by `wireshark-cli` to capture packets. The `-I` flag sets the interface to monitor mode. The `-T` flag translates the data to `json` format. The `-V` flag causes the packet information to be printed in `stdout`. We redirect the information from `stdout` to the file `test.json` for post processing.
