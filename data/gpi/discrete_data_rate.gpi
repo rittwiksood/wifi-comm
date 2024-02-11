@@ -1,0 +1,14 @@
+set term qt persist
+
+set xrange [-1:21]
+set grid
+set xlabel 'Distance (m)'
+set ylabel 'Data Rate (Mbps)'
+
+plot\
+'disc_0.csv' using (0):3 title '', \
+'disc_5.csv' using (5):3 title '', \
+'disc_10.csv' using (10):3 title '', \
+'disc_15.csv' using (15):3 title '', \
+'disc_20.csv' using (20):3 title '', \
+

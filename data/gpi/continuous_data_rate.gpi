@@ -1,0 +1,10 @@
+set term qt persist
+
+set grid
+set xlabel 'Frame Sequence Number'
+set ylabel 'Data Rate (Mbps)'
+
+
+plot\
+'cont.csv' using 1:3 title '' with linespoints, \
+

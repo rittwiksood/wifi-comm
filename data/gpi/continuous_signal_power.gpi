@@ -1,0 +1,10 @@
+set term qt persist
+
+set grid
+set xlabel 'Frame Sequence Number'
+set ylabel 'Signal Power (dBm)'
+
+
+plot\
+'cont.csv' using 1:2 title '' with linespoints, \
+
